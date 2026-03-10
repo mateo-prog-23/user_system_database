@@ -1,0 +1,7 @@
+CREATE TABLE usuarios (
+    id INT PRIMARY KEY IDENTITY(1,1),
+    nombre VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    fecha_creacion DATETIME DEFAULT GETDATE()
+);

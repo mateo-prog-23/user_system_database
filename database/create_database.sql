@@ -1,0 +1,3 @@
+CREATE DATABASE sistema_usuario
+
+USE sistema_usuarios
